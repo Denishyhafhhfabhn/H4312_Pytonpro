@@ -46,7 +46,7 @@ class Student:
 
     def live(self,day):
         text_day = f"Day {day} of {self.name} live"
-        print(f"{text_day:=^30}")
+        print(f"{text_day:=^40}")
         cube = randint(1,4)
         if cube == 1:
             self.to_sleep()
